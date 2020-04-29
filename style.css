@@ -1,0 +1,1161 @@
+* {
+  font-family: 'Maven Pro';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+.container {
+  width: 82%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header {
+  background-color: rgb(46, 46, 46);
+}
+
+.contact {
+  padding: 0.8rem;
+}
+
+.contact a {
+  font-size: 0.6875rem;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  margin-right: 2rem;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.contact a img {
+  margin-right: .5rem;
+
+}
+
+section#branding {
+  background: url('image/_bg.jpg') center;
+  background-size: cover;
+  padding: 1.5rem;
+
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-gap: 4rem;
+}
+
+.box a {
+  justify-self: center;
+  align-self: center;
+}
+
+
+.box form {
+  justify-self: start;
+  align-self: center;
+}
+
+
+
+.box i {
+  margin: 0 2rem 0 .5rem;
+}
+
+
+input[type=search],
+button {
+  padding: .9rem;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+
+}
+
+input[type=search] {
+  width: 14rem;
+
+}
+
+button {
+  width: 3.5rem;
+  color: white;
+  background-color: rgb(46, 46, 46);
+  margin-left: -2%;
+}
+
+
+
+input::placeholder {
+
+  font-family: 'Ubuntu';
+  font-size: 0.971125rem;
+  color: rgba(35, 31, 32, 0.702);
+  line-height: 1.2;
+}
+
+
+.box a {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: rgb(35, 31, 32);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.basket {
+  position: absolute;
+  left: 64rem;
+  top: 1rem;
+
+}
+
+section#menu {
+  background-color: rgb(255, 255, 255);
+  padding: .5rem;
+
+}
+
+
+.dropdown ul li {
+  display: inline-block;
+  padding: 1rem 2.5rem 1rem 0;
+  position: relative;
+}
+
+.dropdown ul li a {
+  color: rgb(46, 46, 46);
+  font-size: 0.8125rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.dropdown ul li i {
+  margin-left: .5rem;
+}
+
+
+
+section#info {
+
+  background: url('image/_bg.jpg') center;
+  background-size: cover;
+  padding: .5rem;
+}
+
+.links li {
+  display: inline-block;
+
+}
+
+.links li a {
+  font-size: 0.6875rem;
+  font-family: "Myriad Pro";
+  color: rgb(46, 46, 46);
+  line-height: 1.2;
+  margin-right: 1rem;
+}
+
+.links li i {
+  font-size: 0.6875rem;
+  color: rgb(46, 46, 46);
+  line-height: 1.2;
+  margin-right: 1rem;
+}
+
+
+
+.active {
+  font-weight: bold;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+.card-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+
+.cards i {
+  margin: 1rem;
+}
+
+.image {
+  margin: 1rem;
+}
+
+.card img {
+  padding: .8rem;
+  margin: .3rem;
+  border: 1px solid rgb(46, 46, 46, 0.2);
+}
+
+.boxA {
+  margin-top: 1rem;
+}
+
+
+.boxB p {
+  margin-bottom: 1rem;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  color: rgb(39, 38, 38);
+  line-height: 1.2;
+}
+
+.boxB p span {
+  text-transform: capitalize;
+  color: rgb(155, 32, 32);
+
+}
+
+.boxB h1 {
+  color: rgb(39, 38, 38);
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.boxC {
+  display: grid;
+  grid-template-columns: repeat(6, max-content);
+  grid-gap: .9rem;
+}
+
+.images img {
+  border: 1px solid rgb(46, 46, 46, 0.2);
+}
+
+.boxD {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-gap: 3.3rem;
+  text-align: left;
+
+}
+
+.boxD button {
+  width: 11rem;
+  padding: .7rem;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(46, 46, 46, 0.2);
+  color: rgb(39, 38, 38);
+  font-size: 0.6875rem;
+  font-family: "Montserrat";
+  color: rgb(39, 38, 38);
+  line-height: 1.2;
+
+
+}
+
+.boxD button i {
+  margin-left: 6rem;
+
+}
+
+.boxD p {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-size: 0.6875rem;
+  font-family: "Montserrat";
+  color: rgb(39, 38, 38);
+  line-height: 1.2;
+}
+
+.boxE {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-gap: 1rem;
+
+
+}
+
+.boxE p {
+  font-family: "Montserrat";
+  color: rgb(39, 38, 38);
+  line-height: 1.2;
+
+}
+
+.boxE .access {
+  display: grid;
+  align-items: flex-end;
+  margin-top: 1rem;
+  font-size: 0.6875rem;
+}
+
+.access span {
+  font-weight: bold;
+}
+
+.boxE .check {
+  display: grid;
+  align-items: flex-end;
+}
+
+.boxE .check i {
+  font-size: 1.7rem;
+  color: rgb(141, 198, 63);
+
+}
+
+.boxE .time {
+  display: grid;
+  align-items: flex-start;
+  margin-top: 1rem;
+
+}
+
+.time p {
+  text-transform: uppercase;
+  color: rgb(182, 35, 35);
+  font-size: 0.625rem;
+}
+
+.boxF {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-gap: 1.57rem;
+  margin-top: 1rem;
+
+
+}
+
+.price span {
+  font-size: 0.875rem;
+  font-family: "Myriad Pro";
+  color: rgb(157, 156, 156);
+  text-decoration: line-through;
+}
+
+.price p {
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  color: rgb(46, 46, 46);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.button2 button {
+  width: 4.2rem;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(46, 46, 46, 0.2);
+  color: rgb(39, 38, 38);
+  font-weight: bold;
+  font-size: 0.8125rem;
+  font-family: "Montserrat";
+  color: rgb(46, 46, 46);
+  line-height: 1.2;
+
+}
+
+.button2 button i {
+  font-size: 0.7rem;
+
+}
+
+.boxF .button2 {
+  align-self: flex-end;
+}
+
+
+.button3 button {
+  width: 11rem;
+  padding: 1rem;
+  font-size: 0.8125rem;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  background-image: url(image/dokoszyka.jpg);
+}
+
+.boxF .button3 {
+  align-self: flex-end;
+}
+
+.boxG {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  margin-top: 1rem;
+  grid-gap: 1.4rem;
+}
+
+.imageDolar {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-gap: 1.4rem;
+
+}
+
+.imageDolar span {
+  font-size: 0.625rem;
+  font-family: "Montserrat";
+  color: rgb(182, 35, 35);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.imageDolar p {
+  font-size: 0.81rem;
+  font-family: "Poppins";
+  color: rgb(32, 32, 32);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.cheaper {
+  font-size: 0.625rem;
+  font-family: "Montserrat";
+  color: rgb(182, 35, 35);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.boxH {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  margin-top: 1rem;
+  grid-gap: 1rem;
+  border: 1px solid rgb(46, 46, 46, 0.2);
+  padding: 1rem;
+  justify-content: flex-start;
+
+}
+
+.boxH .delivery,
+.buy,
+.warranty,
+.return {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-gap: .5rem;
+  align-items: center;
+}
+
+
+.delivery p,
+.buy p,
+.warranty p,
+.return p {
+  font-size: 0.6rem;
+  font-family: "Montserrat";
+  color: rgb(46, 46, 46);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.delivery span {
+
+  text-transform: lowercase;
+  font-weight: normal;
+  font-size: 0.7rem;
+}
+
+.buy span {
+  color: rgb(196, 31, 20);
+  font-size: 0.7rem;
+}
+
+.buy i {
+  color: rgb(196, 31, 20);
+}
+
+.return p {
+  font-size: 0.7rem;
+  font-family: "Montserrat";
+  color: rgb(46, 46, 46);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.return span {
+  text-transform: lowercase;
+  font-size: 0.7rem;
+  font-weight: normal;
+}
+
+/* Addo rder */
+
+.set {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-gap: .5rem;
+  align-items: center;
+  margin: 2rem 0 2rem 0;
+}
+
+.set h2 {
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  color: rgb(39, 38, 38);
+  font-weight: bold;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.boxI {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-gap: 1rem;
+  margin: 1rem 0 1rem 2.5rem;
+
+
+}
+
+.boxI .empire {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-gap: 1rem;
+  margin: 1rem 0 1rem 0;
+  align-items: center;
+  padding: 1rem;
+}
+
+.empire p {
+  font-size: 0.6875rem;
+  font-family: "Montserrat";
+  color: rgb(39, 38, 38);
+  line-height: 1.2;
+}
+
+.empire span {
+  font-size: 1rem;
+  font-family: "Montserrat";
+  color: rgb(39, 38, 38);
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+#borderempire{
+  border-right: 1px solid rgb(46, 46, 46, 0.1);
+  border-left: 1px solid rgb(46, 46, 46, 0.1);
+}
+
+.desc p {
+
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+
+}
+
+.desc ul {
+  margin: 1rem 0 1rem 0;
+}
+
+.desc ol {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+}
+
+.desc h3 {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-family: "Montserrat";
+  color: rgb(46, 46, 46);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 2rem 0 1rem 0;
+}
+
+
+
+
+.desc h4 {
+  font-size: 0.8125rem;
+  font-family: "Montserrat";
+  color: rgb(46, 46, 46);
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 2rem 0 1rem 0;
+
+}
+
+.accordion-content p{
+  margin-bottom: 1rem;
+}
+
+.accordion-content {
+  border-bottom: 1px solid rgb(46, 46, 46, 0.2);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.accordion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+
+.accordion i {
+  display: grid;
+  justify-content: flex-end;
+}
+
+.boxJ {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-gap: 1rem;
+  margin-top: 1rem;
+
+}
+
+.boxJ p {
+  display: grid;
+  align-items: center;
+}
+
+.boxJ p {
+  font-size: 1rem;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(46, 46, 46);
+  font-weight: bold;
+  line-height: 1.2;
+
+}
+
+.boxJ button {
+  width: 15rem;
+  padding: .6rem;
+  font-size: 0.8125rem;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  background-image: url(image/Prostokąt\ 24\ kopia\ 38.jpg);
+
+
+}
+
+.box2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.top {
+  background: url(image/baner.jpg) no-repeat;
+  width: 17.81rem;
+  height: 8.75rem;
+}
+
+
+
+
+
+.top button {
+  width: 8rem;
+  padding: .3rem;
+  font-size: 0.6875rem;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(235, 235, 235);
+}
+
+.card2 {
+  display: grid;
+  grid-auto-columns: 1fr;
+  justify-items: center;
+
+}
+
+.top {
+  display: grid;
+  grid-auto-columns: max-content;
+  justify-content: flex-end;
+
+}
+
+.card2 .top p {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  margin: 0 1rem 0 1rem;
+  font-size: 1rem;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.card2 button {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+
+
+}
+
+.top p span {
+  font-size: 0.75rem;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+
+.cardinfo {
+  display: grid;
+  grid-auto-columns: max-content;
+  justify-content: flex-start;
+  width: 17.81rem;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.cardinfo p {
+  font-size: 0.6875rem;
+  color: rgb(46, 46, 46);
+  line-height: 1.5;
+  margin: 1rem 0 0 1rem;
+}
+
+.cardinfo p span {
+  font-size: 0.875rem;
+  font-family: "Arial";
+  color: rgb(46, 46, 46);
+  font-weight: bold;
+  line-height: 1.029;
+}
+
+.card2{
+  background: url(image/Warstwa\ 681.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+
+.boxL {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+.opionionA {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-gap: 1rem;
+
+}
+
+.opionionA p {
+  display: grid;
+  align-self: center;
+  font-size: 0.875rem;
+  font-family: "Arial";
+  color: rgb(51, 51, 51);
+  line-height: 1.714;
+
+}
+
+.opionionA h5 {
+  display: grid;
+  font-size: 1rem;
+  font-family: "Arial";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 0.75;
+
+}
+
+
+figure {
+  display: table;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: top;
+  margin-bottom: .5rem;
+  font-size: .87rem;
+  font-family: "Arial";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 0.75;
+}
+
+/* Footer */
+
+.background {
+  background: url('image/_FOOTER.png') center;
+  background-size: cover;
+  padding: 12rem;
+
+}
+
+
+section#footer {
+
+  background-color: #171717;
+
+}
+
+.footerinfo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+.col1 {
+  display: grid;
+  justify-content: center;
+  margin: 1rem;
+
+}
+
+
+#col1 {
+  border-right: 1px solid rgb(46, 46, 46, 0.9);
+  border-left: 1px solid rgb(46, 46, 46, 0.9);
+}
+
+#col {
+  border-left: 1px solid rgb(46, 46, 46, 0.9);
+}
+
+
+footer {
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.col1 p {
+  font-size: 14.426px;
+  text-transform: uppercase;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  line-height: 2.2;
+}
+
+.col1 ul ol a {
+  font-size: 12.623px;
+  font-family: "Lato";
+  color: rgba(224, 220, 220, 0.62);
+  line-height: 2.2;
+  text-decoration: none;
+}
+
+.contact2 a {
+  display: grid;
+  font-size: 1.563rem;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  line-height: .4;
+
+}
+
+
+.social {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: flex-start;
+  grid-gap: 1rem;
+  margin: 1rem;
+}
+
+.col1 ul img {
+  margin-right: .5rem;
+}
+
+/* Media Queries */
+
+
+@media screen and (min-width: 1368px) {
+
+
+  .basket {
+    position: absolute;
+    left: 95rem;
+  }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+
+  .container {
+    width: 95%;
+  }
+
+
+  .basket {
+    display: none;
+  }
+
+  .logo {
+    display: grid;
+    justify-content: center;
+  }
+
+
+  .box {
+    display: grid;
+    grid-template-columns: max-content;
+    grid-gap: .5rem;
+    justify-content: center;
+  }
+
+  section#branding {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .contact {
+    text-align: center;
+    padding: 0;
+    margin: 1rem;
+
+  }
+
+  .contact a {
+    display: block;
+    margin: 0 0 1rem 0;
+  }
+
+  .dropdown ul li {
+    display: block;
+    text-align: center;
+    padding: .5rem;
+  }
+
+  .dropdown ul li a {
+    font-size: 80%;
+
+  }
+
+  .links li a {
+    font-size: 70%;
+    margin-right: .5rem;
+  }
+
+  .links li i {
+    font-size: 50%;
+    margin-right: .5rem;
+  }
+
+  .links {
+    text-align: center;
+
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+
+
+  .card-gallery {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .image img {
+    width: 70%;
+  }
+
+  .cards {
+    display: none;
+  }
+
+  .boxC {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    grid-gap: .9rem;
+    justify-content: center;
+  }
+
+
+
+
+  .boxC img {
+    width: 6rem;
+  }
+
+  .boxB p {
+    text-align: center;
+  }
+
+  .boxB p span {
+    text-transform: capitalize;
+    color: rgb(155, 32, 32);
+
+  }
+
+  .boxB h1 {
+    text-align: center;
+  }
+
+  .boxD {
+    grid-template-columns: 1fr;
+    grid-gap: .5rem;
+    text-align: center;
+  }
+
+  .boxE,
+  .boxG {
+    justify-content: center;
+  }
+
+  .boxE {
+    grid-gap: .2rem;
+  }
+
+  .boxF {
+    grid-template-columns: max-content;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+  .boxG {
+    display: grid;
+    grid-template-columns: repeat(1, max-content);
+    text-align: center;
+    margin-top: 1rem;
+    grid-gap: 1.4rem;
+  }
+
+  .boxH {
+    display: grid;
+    grid-template-columns: repeat(1, max-content);
+    margin-top: 1rem;
+    margin: 2rem;
+    padding: .5rem;
+    justify-content: center;
+  }
+
+
+
+  .set {
+    justify-content: center;
+  }
+
+  .boxI {
+
+    grid-template-columns: repeat(1, max-content);
+    justify-content: center;
+    grid-gap: .1rem;
+    margin: 0;
+  }
+
+  .box2 {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    grid-gap: 2rem;
+  }
+
+
+
+  .boxJ {
+    grid-template-columns: max-content;
+    justify-content: center;
+
+  }
+
+
+
+  .boxJ button {
+    width: 20rem;
+    text-align: center;
+  }
+
+  .boxL {
+    grid-template-columns: 1fr;
+
+  }
+
+  .opionionA {
+    grid-template-columns: 1fr;
+
+
+  }
+
+  figure {
+    text-align: center;
+  }
+
+  .cardinfo {
+    justify-content: center;
+  }
+
+
+  .boxJ p {
+    text-align: center;
+  }
+
+  .background {
+    padding: 5rem;
+  }
+
+  #borderempire{
+    border-right: none;
+    border-left: none;
+  }
+  
+
+  .footerinfo {
+    grid-template-columns: max-content max-content;
+    justify-content: center;
+  }
+
+  .contact2 a {
+    font-size: 90%;
+    margin-top: 1rem;
+  }
+
+  #col1 {
+    border-right: none;
+    border-left: none;
+
+  }
+
+  .contact2{
+    margin: 0;
+  }
+  
+  #col {
+    border-left: none;
+  }
+}
+
+
